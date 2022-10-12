@@ -9,6 +9,7 @@ A basic, yet comprehensive mod player (as in AMIGA Protracker). Written in porta
 - Sound Blaster or register 100% compatible sound card present and initialized (run CTCM.EXE if your card is a jumperless ISA card).
 - ISA DMA subsystem present.
 - A correctly set up BLASTER environment variable (CTCM.EXE sets a valid one). Currently, only DMA 1 and 3 are supported.
+- CWSTUB.EXE available in current directory or system PATH
 
 ## Limitations
 - Some effects are not yet supported. Hopefully, rarely used ones.
@@ -16,5 +17,6 @@ A basic, yet comprehensive mod player (as in AMIGA Protracker). Written in porta
 - Output is 8 bit mono, to be able to use a Sound Blaster 2.0 card as a minimum.
 
 ## Use
-- modplay nameofyourfavouritemod[.MOD]
-- The slowest system I have tested this in is a 80386DX-33 based PC with Sound Blaster Pro 2.
+- modplay nameofyourfavouritemod[.MOD] (Windows executable)
+- mplay nameofyourfavouritemod[.MOD] (DOS executable. Be sure that CWSTUB.EXE is available as well)
+- The slowest system I have tested this in is a 80386DX-33 based PC with MS-DOS 6.22 and Sound Blaster Pro 2.
