@@ -21,6 +21,7 @@ A basic, yet comprehensive mod player (as in AMIGA Protracker). Written in porta
 - modplay [-fsample_freq] nameofyourfavouritemod[.MOD] (Windows executable)
 - mplay [-fsample_freq] nameofyourfavouritemod[.MOD] (DOS executable. Be sure that CWSTUB.EXE is available as well)
 - Sample frequency can range from 8000 to 48000. Values outside these limits have not been tested. Particulary, some old Sound Blaster cards may not support faster than 44100 Hz. Default value is 32000 (32 kHz).
+- ESC key exits the program.
 - The slowest system I have tested this in is a 80386DX-33 based PC with MS-DOS 6.22 and Sound Blaster Pro 2.
 
 Example: modplay -f44100 c:\mod\e\enigma.mod
