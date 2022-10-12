@@ -1,0 +1,5 @@
+.DEFAULT_GOAL := modplay.exe
+
+modplay.exe : modplay.c
+	gcc -o modplay.exe modplay.c -I. -lwinmm
+

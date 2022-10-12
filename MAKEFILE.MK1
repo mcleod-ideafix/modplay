@@ -1,0 +1,9 @@
+!define BLANK ""
+modplay.obj : modplay.c .AUTODEPEND
+ *wcc386 modplay.c -i="C:\WATCOM/h" -w4 -e25 -j -zq -od -of -ob -ol -ol+ -oi -oa -or -oh -om -3s -bt=dos -fo=.obj -mf
+
+mplay.exe : modplay.obj .AUTODEPEND
+ @%write mplay.lk1 FIL modplay.obj
+ @%append mplay.lk1
+ *wlink name mplay d all sys causeway op m op maxe=25 op q op symf @mplay.lk1
+ 
