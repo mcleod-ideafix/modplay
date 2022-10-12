@@ -10,5 +10,11 @@ A basic, yet comprehensive mod player (as in AMIGA Protracker). Written in porta
 - ISA DMA subsystem present.
 - A correctly set up BLASTER environment variable (CTCM.EXE sets a valid one). Currently, only DMA 1 and 3 are supported.
 
+## Limitations
+- Some effects are not yet supported. Hopefully, rarely used ones.
+- Fails to detect non supported MOD files. Anything that it's not a M.K. or FLT4 mod files, are interpreted as 15 instrument mods.
+- Output is 8 bit mono, to be able to use a Sound Blaster 2.0 card as a minimum.
+
 ## Use
 - modplay nameofyourfavouritemod[.MOD]
+- The slowest system I have tested this in is a 80386DX-33 based PC with Sound Blaster Pro 2.
