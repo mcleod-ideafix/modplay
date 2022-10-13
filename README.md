@@ -14,8 +14,8 @@ A basic, yet comprehensive mod player (as in AMIGA Protracker). Written in porta
 
 ## Limitations
 - Some effects are not yet supported. Hopefully, rarely used ones.
-- Fails to detect non supported MOD files. Anything that it's not a M.K. or FLT4 mod files, are interpreted as 15 instrument mods.
-- Output is 8 bit mono, to be able to use a Sound Blaster 2.0 card as a minimum.
+- Fails to detect non supported MOD files. Anything that it's not a M.K. or FLT4 mod file, is interpreted as 15 instrument mod.
+- Output is 8 bit mono, to be able to use a Sound Blaster 2.0 card as a minimum choice.
 
 ## Use
 - modplay [-fsample_freq] nameofyourfavouritemod[.MOD] (Windows executable)
